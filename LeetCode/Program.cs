@@ -19,7 +19,9 @@ namespace LeetCode
             //minStack.GetMin(); //--> Returns - 2.
 
             //  new PascalTriangle().Generate(7);
-            var res = new HammingDistance().HammingDistanceSoltution(1, 4);
+            //var res = new HammingDistance().HammingDistanceSoltution(1, 4);
+            var pal = new LinkedListPalindrome();
+            var isPal = pal.IsPalindrome(pal.GetTestData());
         }
     }
 
